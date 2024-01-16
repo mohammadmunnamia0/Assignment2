@@ -58,11 +58,12 @@
    
 }
 .btn{
-    padding: 12px 20px;
+    padding: 12px 40px;
     border-radius: 8px;
     border-color: none;
     color: rgb(255, 255, 255);
     background-color: chocolate;
+    font-size: 14px;
 }
 .btn2{
     padding: 12px 20px;
@@ -182,7 +183,36 @@
        padding-left: 760px;
       
       }
+
+      /* .................... */
+      .section4text
+      {
+        margin-top: 130px ;
+        text-align: center;
+      }
+      .bg1, .bg2, .bg3{
+        background-color: antiquewhite;
+        width: 500px;
+        padding: 20px 20px;
+        border-radius: 10px;
+       
+        /* gap: 50px; */
+      }
+      .Parentbg{
+        /* border: solid; */
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2,540px);
+        gap: 20px;
+      }
  
+      .bg1,.bg2{
+        margin-left: 240px;
+      }
+      .bg3{
+        margin-left: 500px;
+      }
+     
 
 
 
@@ -231,8 +261,9 @@
        
     }
     .btn{
-        margin:5px 18px;
-        padding: 5px 108px;
+        margin:5px 0px;
+        margin-left: 18px;
+        padding: 10px 83px;
        
     }
     #SelectType{
