@@ -352,6 +352,43 @@
       }
       
 
+/* ................... */
+
+/* extrapatt */
+
+.extrapart{
+  margin-bottom: 120px;
+}
+.HappyClients{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px;
+ 
+}
+.reviewsection{
+display: flex;
+justify-content: center;
+gap: 20px;
+
+}
+.ReviewSection{
+background-color: rgba(251, 159, 0, 0.4);
+width: 400px;
+padding: 30px 15px;
+text-align: center;
+border-radius: 15px;
+box-shadow: 10px 10px 10px 1px tomato;
+}
+.reviewer{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+position: relative;
+align-content: center;
+top: 0px;
+left: 1px;
+
+}
 
 
 
@@ -650,7 +687,18 @@ padding: 14px 125px;
     border-radius: 10px;
   }
   
-element.style {
+  .reviewsection{
+    display: inline;
+    
+    gap: 30px;
+   
+    width: 50px;
+    margin-left: 10px;
+}
+.ReviewSection1,.ReviewSection2,.ReviewSection3{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
 }
 
 .footer {
