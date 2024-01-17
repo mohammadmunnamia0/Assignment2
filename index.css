@@ -11,6 +11,9 @@
     gap: 30px;
 
 }
+.fa-solid{
+  display: none;
+}
 .navbar{
     padding: 60px;
     margin: 0px 100px;
@@ -358,6 +361,7 @@
 
 .extrapart{
   margin-bottom: 120px;
+  margin-left: 35px;
 }
 .HappyClients{
   text-align: center;
@@ -429,6 +433,14 @@ left: 1px;
     .navbar{
         margin: 0px;
         padding: 0px;
+    }
+    .nav_elementsRight{
+      display: none;
+    }
+    .fa-solid{
+      display: contents;
+      padding-right: 50px;
+      padding-top: 26px;
     }
     .section1{
         margin: 0px auto;
@@ -707,6 +719,7 @@ padding: 14px 125px;
 .footer {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    margin-top: 10px;
     margin-left: 0px;
     margin-bottom: 20px;
     height: 400px;
