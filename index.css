@@ -11,8 +11,8 @@
     gap: 30px;
 
 }
-.fa-solid{
-  display: none;
+.hambrag{
+  display:none;
 }
 .navbar{
     padding: 60px;
@@ -437,15 +437,15 @@ left: 1px;
     .nav_elementsRight{
       display: none;
     }
-    .fa-solid{
+    .hambrag{
       display: contents;
-      padding-right: 50px;
+      padding-right:45px;
       padding-top: 26px;
     }
     .section1{
         margin: 0px auto;
         /* width:min-content; */
-        width: 80%;
+        width: 90%;
     }
     .section1inputs{
         margin: 10px 2%;
@@ -468,7 +468,7 @@ left: 1px;
     .btn{
         margin:5px 0px;
         margin-left: 18px;
-        padding: 10px 83px;
+        padding: 10px 78px;
        
     }
     #SelectType{
